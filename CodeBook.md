@@ -2,9 +2,7 @@ Note:
 - This codebook first records information about the source data. (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 - Later this code book focuses more on the new tidy data and its variables that were requested as part of final assignment of Getting-and-Cleaning-Data-Course-Project. If you wish you skip directly to this content, go straight to the section "Independent tidy data set with the average of each variable for each activity and each subject"
 
-==================================================================
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
+Human Activity Recognition Using Smartphones Dataset - Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
