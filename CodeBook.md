@@ -105,16 +105,13 @@ All the variable names from number [3] to number [88] are almost self explainato
   * Mean_Group_By_Subject_Activity: This is the final total mean of each of the selected variables for the purpose of this assignment, grouped by subject and activity
 
 Also the units of all the variable from number [3] to number [88] are:
-  - All the acceleration signal from the smartphone accelerometer are a standard gravity units 'g'
+  - All the acceleration signal from the smartphone accelerometer are standard gravity units 'g'
   - The angular velocity vector measured by the gyroscope are of units radians/second.
 
 And all the vairables from number [3] to [88] are numeric.
 
-  [1] "subject"                                                                                                       
-            integer. Range: 1-30. No units. each number indicates a different volunteer for the experiment
-  [2] "activity_label"                                                                                                
-            Factor of level 6. No units. Each level indicates an activity that was performed by a subject
-            Different values are: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS		   	
+ [1] "subject" : integer. Range: 1-30. No units. each number indicates a different volunteer for the experiment
+ [2] "activity_label" : Factor of level 6. No units. Each level indicates an activity that was performed by a subject. Different values are: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS		   	
  [3] "time_domain_signals_body_accelerometer_mean()_x_Mean_Group_By_Subject_Activity"                                
  [4] "time_domain_signals_body_accelerometer_mean()_y_Mean_Group_By_Subject_Activity"                                
  [5] "time_domain_signals_body_accelerometer_mean()_z_Mean_Group_By_Subject_Activity"                                
