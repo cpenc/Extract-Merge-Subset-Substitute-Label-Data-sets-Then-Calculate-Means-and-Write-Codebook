@@ -87,12 +87,12 @@ From the source data, explained in the First Part of this code book, test and tr
 The following content explains each variable of FinalTidyDataSet.txt and their units
 
 All the variable names from number [3] to number [88] are almost self explanatory. But to make it more clear, here is a meaning of all the common terms used in these variable names:
-  * time_domain_signals: So during the experiment, all the 128 measurements were taking in fixed-width sliding windows of 2.56 sec and 50% overlap. This is the time domain of those measurements  
-  * frequency_domain_signals: So during the experiment, all the 128 measurements were taking in fixed-width sliding windows of 2.56 sec and 50% overlap. This is the frequency domain of those measurements
-  * angle: This is the change in angle of the device due to rotatory motion
-  * body: This is the acceleration due to body motion.
-  * gravity: This is the acceleration due to the gravity.
-  * jerk: This is the acceleration due to some jerk or jerky motion
+  * time_domain_signals: So during the experiment, all the 128 measurements were taken in fixed-width sliding windows of 2.56 sec and 50% overlap. This is the time domain of those measurements  
+  * frequency_domain_signals: So during the experiment, all the 128 measurements were taken in fixed-width sliding windows of 2.56 sec and 50% overlap. This is the frequency domain of those measurements
+  * angle: This is the change in angle of the device (smartphone, Samsung Galaxy S II, on the waist) due to rotatory motion
+  * body: This is the acceleration of the device due to body motion.
+  * gravity: This is the acceleration of the device due to the gravity.
+  * jerk: This is the acceleration of the device due to some jerk or jerky motion
   * accelerometer: this is the recording on accelerometer
   * gyroscope: This is the recording on gyroscope
   * magnitude: This is the extent of particular measurements (one of 561) caused by base variables (the 128 measurements)
