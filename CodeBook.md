@@ -110,7 +110,7 @@ Also the units of all the variable from number [3] to number [88] are:
 
 And all the vairables from number [3] to [88] are numeric.
 
- [1] "subject" : integer. Range: 1-30. No units. each number indicates a different volunteer for the experiment
+ [1] "subject" : integer. Range: 1-30. No units. each number indicates a different volunteer for the experiment                                
  [2] "activity_label" : Factor of level 6. No units. Each level indicates an activity that was performed by a subject. Different values are: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS		   	
  [3] "time_domain_signals_body_accelerometer_mean()_x_Mean_Group_By_Subject_Activity"                                
  [4] "time_domain_signals_body_accelerometer_mean()_y_Mean_Group_By_Subject_Activity"                                
