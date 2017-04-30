@@ -8,8 +8,8 @@ So it included 3 files
 1. This readme.md
 2. The code for the final assignment of Getting-and-Cleaning-Data-Course-Project
 3. A codebook that explains:
-  * Everything about the data used of this project
-  * Everything about the data generate out of this assignment
+    * Everything about the data used of this project
+    * Everything about the data generate out of this assignment
 
 Note about the code book: 
 1) As the data for this project is used from a external source, a reference is mentioned to the actual source, if you need to know anything about the source please visit the reference and you should find everything there
