@@ -84,6 +84,12 @@ names(OneNiceDataSet)<-k                            #assign k to names of OneNic
 #so grouping by subject,activity_label then finding their mean
 FinalTidyDataSet<-group_by(OneNiceDataSet,subject,activity_label) %>% summarise_each(funs(mean))
 
+#now that we have calculated the means after goruping on subject and activity, let us also 
+#also rename the column names so they would make more sense in the FinalTidyDataSet
+names(FinalTidyDataSet) <-paste(names(FinalTidyDataSet),"_Mean_Group_By_Subject_Activity",sep="")
+colnames(FinalTidyDataSet)[1] <- "subject" #Didn't have to add _Mean_Group_By_Subject_Activity to 1st column
+colnames(FinalTidyDataSet)[2] <- "activity_label" #Didn't have to add _Mean_Group_By_Subject_Activity to 2nd column
+
 #writing the grouped means to file.
 write.table(FinalTidyDataSet,file = "FinalTidyDataSet.txt",col.names = TRUE,row.names = FALSE,quote = TRUE)
 #Assignment Step 5 complete
