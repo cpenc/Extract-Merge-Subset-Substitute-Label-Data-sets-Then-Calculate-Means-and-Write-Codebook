@@ -85,11 +85,6 @@ From the source data, explained in the First Part of this code book, test and tr
 
 ### Variable names in FinalTidyDataSet.txt:
 The following content explains each variable of FinalTidyDataSet.txt and their units
-  [1] "subject"                                                                                                       
-            integer. Range: 1-30. No units. each number indicates a different volunteer for the experiment
-  [2] "activity_label"                                                                                                
-            Factor of level 6. No units. Each level indicates an activity that was performed by a subject
-            Different values are: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS		   
 
 All the variable names from number [3] to number [88] are almost self explainatory. But to make it more clear, here is a meaning of all the common terms used in these variable names:
   * time_domain_signals: So during the experiment, all the 128 measurments were taking in fixed-width sliding windows of 2.56 sec and 50% overlap. This is the time domain of those measurments  
@@ -114,13 +109,12 @@ Also the units of all the variable from number [3] to number [88] are:
   - The angular velocity vector measured by the gyroscope are of units radians/second.
 
 And all the vairables from number [3] to [88] are numeric.
-	
- [3] "time_domain_signals_body_accelerometer_mean()_x"                                
-           numeric. The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'.
 
-		   
-		   
-
+  [1] "subject"                                                                                                       
+            integer. Range: 1-30. No units. each number indicates a different volunteer for the experiment
+  [2] "activity_label"                                                                                                
+            Factor of level 6. No units. Each level indicates an activity that was performed by a subject
+            Different values are: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS		   	
  [3] "time_domain_signals_body_accelerometer_mean()_x_Mean_Group_By_Subject_Activity"                                
  [4] "time_domain_signals_body_accelerometer_mean()_y_Mean_Group_By_Subject_Activity"                                
  [5] "time_domain_signals_body_accelerometer_mean()_z_Mean_Group_By_Subject_Activity"                                
