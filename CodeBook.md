@@ -1,5 +1,5 @@
 Note:
-- First part: This codebook first records information about the source data. (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+- First part: This code book first records information about the source data. (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 - Assignment part: Later this code book focuses more on the new tidy data and its variables that were requested as part of final assignment of Getting-and-Cleaning-Data-Course-Project. If you wish you skip directly to this content, go straight to the section "Independent tidy data set with the average of each variable for each activity and each subject"
 
 
@@ -81,34 +81,34 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 Please read the readme for this repo to understand how the source data was analyzed using run_analysis.R to create FinalTidyDataSet.txt
 
 ### What does FinalTidyDataSet.txt contain?
-From the source data, explained in the First Part of this code book, test and train data were combined for all variables which had either mean or standard deviation in their names. And then the mean of all the selected variables was calculating after goruping the entire data bases on Subject and Activity they performed. These means were calculated and stored in FinalTidyDataSet.txt file.
+From the source data, explained in the First Part of this code book, test and train data were combined for all variables which had either mean or standard deviation in their names. And then the mean of all the selected variables was calculating after grouping the entire data bases on Subject and Activity they performed. These means were calculated and stored in FinalTidyDataSet.txt file.
 
 ### Variable names in FinalTidyDataSet.txt:
 The following content explains each variable of FinalTidyDataSet.txt and their units
 
-All the variable names from number [3] to number [88] are almost self explainatory. But to make it more clear, here is a meaning of all the common terms used in these variable names:
-  * time_domain_signals: So during the experiment, all the 128 measurments were taking in fixed-width sliding windows of 2.56 sec and 50% overlap. This is the time domain of those measurments  
-  * frequency_domain_signals: So during the experiment, all the 128 measurments were taking in fixed-width sliding windows of 2.56 sec and 50% overlap. This is the frequency domain of those measurments
+All the variable names from number [3] to number [88] are almost self explanatory. But to make it more clear, here is a meaning of all the common terms used in these variable names:
+  * time_domain_signals: So during the experiment, all the 128 measurements were taking in fixed-width sliding windows of 2.56 sec and 50% overlap. This is the time domain of those measurements  
+  * frequency_domain_signals: So during the experiment, all the 128 measurements were taking in fixed-width sliding windows of 2.56 sec and 50% overlap. This is the frequency domain of those measurements
   * angle: This is the change in angle of the device due to rotatory motion
   * body: This is the acceleration due to body motion.
   * gravity: This is the acceleration due to the gravity.
   * jerk: This is the acceleration due to some jerk or jerky motion
   * accelerometer: this is the recording on accelerometer
   * gyroscope: This is the recording on gyroscope
-  * magnitude: This is the extent of particular measurments (one of 561) caused by base variables (the 128 measurments)
-  * frequency: This is the occurance of particular measurments (one of 561) caused by base variables (the 128 measurments)
+  * magnitude: This is the extent of particular measurements (one of 561) caused by base variables (the 128 measurements)
+  * frequency: This is the occurrence of particular measurements (one of 561) caused by base variables (the 128 measurements)
   * mean: mean of variables in scope
   * std: standard deviation of variables in scope
-  * x: X dimention of motion or rotation
-  * y: Y dimention of motion or rotation
-  * z: Z dimention of motion or rotation
+  * x: X dimension of motion or rotation
+  * y: Y dimension of motion or rotation
+  * z: Z dimension of motion or rotation
   * Mean_Group_By_Subject_Activity: This is the final total mean of each of the selected variables for the purpose of this assignment, grouped by subject and activity
 
 Also the units of all the variable from number [3] to number [88] are:
   - All the acceleration signal from the smartphone accelerometer are standard gravity units 'g'
   - The angular velocity vector measured by the gyroscope are of units radians/second.
 
-And all the vairables from number [3] to [88] are numeric.
+And all the variables from number [3] to [88] are numeric.
 
  [1] "subject" : integer. Range: 1-30. No units. each number indicates a different volunteer for the experiment                                
  [2] "activity_label" : Factor of level 6. No units. Each level indicates an activity that was performed by a subject. Different values are: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS                                
