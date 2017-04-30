@@ -80,6 +80,9 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 
 Please read the readme for this repo to understand how the source data was analyzed using run_analysis.R to create FinalTidyDataSet.txt
 
+### What does FinalTidyDataSet.txt contain?
+From the source data, explained in the First Part of this code book, test and train data were combined for all variables which had either mean or standard deviation in their names. And then the mean of all the selected variables was calculating after goruping the entire data bases on Subject and Activity they performed. These means were calculated and stored in FinalTidyDataSet.txt file.
+
 The following content explains each variable of FinalTidyDataSet.txt and their units
 
 ### Variable names in FinalTidyDataSet.txt:
