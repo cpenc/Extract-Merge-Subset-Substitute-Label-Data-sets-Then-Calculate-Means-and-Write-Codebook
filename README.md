@@ -8,8 +8,8 @@ So it included 3 files
 1. This readme.md
 2. The code for the final assignment of Getting-and-Cleaning-Data-Course-Project
 3. A codebook that explains:
-* Everything about the data used of this project
-* Everything about the data generate out of this assignment
+  * Everything about the data used of this project
+  * Everything about the data generate out of this assignment
 
 Note about the code book: 
 1) As the data for this project is used from a external source, a reference is mentioned to the actual source, if you need to know anything about the source please visit the reference and you should find everything there
@@ -28,11 +28,11 @@ But in short this is what the code does:
  6. Also save run_analysis.R code file into "UCI HAR Dataset" directory
  7. From R or RStudio, after setting working directory as "UCI HAR Dataset" and after having dplyr and tidyr packages installed, run "source("run_analysis.R") to execute the code and geenereate the new tidy data as requested in the assignment
  8. So run_analysis.R will do the following:
-* Merges the training and the test sets to create one data set.
-* Extracts only the measurements on the mean and standard deviation for each measurement.
-* Uses descriptive activity names to name the activities in the data set
-* Appropriately labels the data set with descriptive variable names.
-* From the data set in step e, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+    * Merges the training and the test sets to create one data set.
+    * Extracts only the measurements on the mean and standard deviation for each measurement.
+    * Uses descriptive activity names to name the activities in the data set
+    * Appropriately labels the data set with descriptive variable names.
+    * From the data set in step e, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
  9. The run_analysis.R code will generate 1 output file, "FinalTidyDataSet.txt"
 10. FinalTidyDataSet.txt will have the tidy data requested in the assignment
 
