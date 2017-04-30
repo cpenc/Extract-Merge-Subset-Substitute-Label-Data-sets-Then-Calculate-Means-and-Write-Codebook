@@ -56,7 +56,7 @@ OneNiceDataSet<-tbl_df(OneDataSet[,grep(pattern = 'mean|std|subject|activity_cod
 								 ]
 					  ) #<- Assignment Step 2 complete
 
-#Okay, now we need to replace activiiy_codes with activity_labels
+#Okay, now we need to replace activity_codes with activity_labels
 #for this we can just inner join on activity_labels data frame to use the
 #labels in it. After the inner join, we don't need activity_code column 
 #any more, so let us remove it using minus!
@@ -84,7 +84,7 @@ names(OneNiceDataSet)<-k                            #assign k to names of OneNic
 #so grouping by subject,activity_label then finding their mean
 FinalTidyDataSet<-group_by(OneNiceDataSet,subject,activity_label) %>% summarise_each(funs(mean))
 
-#now that we have calculated the means after goruping on subject and activity, let us also 
+#now that we have calculated the means after grouping on subject and activity, let us also 
 #also rename the column names so they would make more sense in the FinalTidyDataSet
 names(FinalTidyDataSet) <-paste(names(FinalTidyDataSet),"_Mean_Group_By_Subject_Activity",sep="")
 colnames(FinalTidyDataSet)[1] <- "subject" #Didn't have to add _Mean_Group_By_Subject_Activity to 1st column
