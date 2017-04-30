@@ -16,7 +16,7 @@ Note about the code book:
 2) As we generate a new tidy data in this assignment out of the actual data, the code book focuses more on this new tidy data and its variables
 
 
-##What does the code for this assignment do:
+## What does the code for this assignment do:
 Detailed comments are mentioned the code explaining what each line of code does. Please refer to comments in the code to understand code if any code is not understandable in run_analysis.R
 
 But in short this is what the code does:
